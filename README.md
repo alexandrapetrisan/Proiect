@@ -3,24 +3,7 @@ Acest proiect contine teste automate UI si API dezvoltate in Java folosind libra
  Scopul proiectului este validarea functionalitatilor aplicatiei SauceDemo
 
  Structura proiectului:
- src/test/java
- ─ base - BaseTest.java
- ── pages
-    ├── CartPage.java
-    ├── CheckoutPage.java
-    ├── InvertoryPage.java
-    └── LoginPage.java
- 
-── tests
-    ├── AddToCardTest.java
-    └── CheckoutTest.java
-    └── LoginTest.java
- 
- 
- ── utils
-     ├── ConfigReader.java
-     └── ScreenshotUtils.java
-     └── WaitUtils.java
+ src/test/java : base-BaseTest.java , pages -CartPage.java,CheckoutPage.java,InvertoryPage.java,LoginPage.java  , tests - AddToCardTest.java,CheckoutTest.java,LoginTest.java ,   utils-ConfigReader.java,ScreenshotUtils.java, WaitUtils.java
 
 BaseTest
 
