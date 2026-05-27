@@ -1,4 +1,4 @@
-package API;
+package tests;
 
 import base.BaseAPI;
 import io.restassured.http.ContentType;
