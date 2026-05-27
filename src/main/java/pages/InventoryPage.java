@@ -22,4 +22,7 @@ import org.openqa.selenium.WebDriver;
         public String getCartBadgeText() {
             return driver.findElement(cartBadge).getText();
         }
+       public void openCart() {
+           driver.findElement(cartBadge).click();
+       }
    }

@@ -54,5 +54,7 @@ import org.openqa.selenium.WebDriver;
             enterPostalCode(postalCode);
             clickContinue();
         }
+
+
     }
 
